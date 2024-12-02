@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="contacto.css">
+    <link rel="icon" href="images/logos.svg">
+
+</head>
+<body>
+
+    <header>
+
+        <div class="menux"></div>
+
+    
+    <div class="menu container">
+        <a href="#" class="logo"><img src="images/logos.svg" alt="logo"></a>
+        <h3>Wankamaps</h3>
+        <input type="checkbox" id="menu"/>
+        <label for="menu">
+            <img src="images/menu.png" class="menu-icono" alt="menu">
+        </label>
+        <nav class="navbar">
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="rutas.html">Rutas</a></li>
+                <li><a href="noticias.html">Noticias</a></li>
+                <li><a href="nosotros.html">Nosotros</a></li>
+            </ul>
+        </nav>
+    </div>
+            
+    </header>
+
+    <div class="contenedor">
+        
+        
+
+        <div class="containers">
+            <h1 class="titles">Acerca de Wankamaps</h1>
+            <div class="faq">
+                <div class="faq-item">
+                    <button class="faq-question" onclick="toggleAnswer('answer1')">
+                        <span>¿WankaMaps?</span>
+                        <i class="fas fa-chevron-right"></i>
+                    </button>
+                    <div id="answer1" class="faq-answer">
+                        "Wanka Maps" es una plataforma que centraliza y organiza información sobre las rutas de transporte público en Huancayo. Su objetivo es facilitar a los usuarios el acceso a datos claros y actualizados sobre los servicios ofrecidos por distintas empresas del sector, promoviendo una movilidad urbana más eficiente.                </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question" onclick="toggleAnswer('answer2')">
+                        <span>Ventajas Principales</span>
+                        <i class="fas fa-chevron-right"></i>
+                    </button>
+                    <div id="answer2" class="faq-answer">
+                        1. Acceso Centralizado a la Información: Los usuarios pueden consultar las rutas de transporte público en un solo lugar, eliminando la necesidad de buscar información dispersa. <br>
+
+ 2. Facilidad de Uso: Una interfaz amigable y accesible para todo tipo de usuarios, permitiendo un acceso rápido a la información de rutas y horarios. <br>
+
+3. Optimización de Rutas: Ayuda a los pasajeros a planificar sus trayectos de manera eficiente, reduciendo tiempos de espera y traslados innecesarios. <br>
+
+4. Impulso a la Movilidad Sostenible: Promueve el uso del transporte público al hacerlo más accesible y comprensible para los ciudadanos. <br>
+
+5. Beneficio para Empresas de Transporte: Ofrece una plataforma para que las empresas publiciten sus servicios y lleguen a más usuarios. <br>
+
+6. Actualización Constante: La posibilidad de mantener la información actualizada en tiempo real para reflejar cambios en las rutas o servicios.                </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question" onclick="toggleAnswer('answer3')">
+                        <span>Nuestra Mision    </span>
+                        <i class="fas fa-chevron-right"></i>
+                    </button>
+                    <div id="answer3" class="faq-answer">
+                        Facilitar el acceso a información clara, actualizada y confiable sobre las rutas de transporte público en Huancayo, promoviendo una movilidad urbana más eficiente y sostenible para beneficio de los ciudadanos y las empresas del sector.                </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question" onclick="toggleAnswer('answer4')">
+                        <span>Nuestro Objetivo</span>
+                        <i class="fas fa-chevron-right"></i>
+                    </button>
+                    <div id="answer4" class="faq-answer">
+                        Crear una plataforma digital que centralice y optimice la información de las rutas de transporte público, mejorando la experiencia de los usuarios y fomentando la transparencia y accesibilidad del sistema de movilidad urbana en Huancayo.              </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question" onclick="toggleAnswer('answer5')">
+                        <span>La Importancia de Mejorar el Transporte Público</span>
+                        <i class="fas fa-chevron-right"></i>
+                    </button>
+                    <div id="answer5" class="faq-answer">
+                        1. Reducción de la Congestión Vehicular: Un sistema de transporte público eficiente disminuye la cantidad de vehículos privados en circulación, mejorando el flujo del tráfico y reduciendo los tiempos de viaje. <br>
+
+2. Impacto Ambiental Positivo: Promover el uso del transporte público contribuye a la disminución de emisiones de gases contaminantes, ayudando a mitigar el cambio climático y a mejorar la calidad del aire. <br>
+
+3. Accesibilidad para Todos: Un transporte público bien planificado garantiza que las personas de todas las comunidades, incluidas las más alejadas o de bajos recursos, puedan acceder a oportunidades laborales, educativas y de salud. <br>
+
+4. Impulso Económico: Un sistema eficiente reduce costos de transporte para los usuarios y optimiza la logística urbana, fomentando el desarrollo económico local. <br>
+
+5. Mejora de la Calidad de Vida: Un transporte público confiable y cómodo reduce el estrés asociado con los desplazamientos, mejorando la experiencia diaria de los ciudadanos. <br>
+
+6. Movilidad Urbana Sostenible: Una infraestructura pública robusta es clave para el desarrollo de ciudades modernas y sostenibles, integrando diferentes formas de transporte en un sistema coherente y eficiente. <br>
+
+7. Seguridad y Organización: Al mejorar el transporte público, se reducen prácticas informales y se refuerza la seguridad tanto en las unidades como en las rutas. </div>
+                </div>
+            </div>
+        </div>
+
+        
+    </div>
+    <section id="contacto" class="contacto">
+        <h2>Contactanos Ahora</h2>
+        
+        <div class="contenido-contacto">
+            
+            <div class="img">
+                <img src="images/contact-img.svg" alt="">
+            </div>
+            <div class="formulario">
+                
+                <div class="fila">
+                    <input type="text" placeholder="Pimer Nombre">
+                    <input type="text" placeholder="Apellido">
+                </div>
+                <div class="fila">
+                    <input type="text" placeholder="Dirección de Email">
+                    <input type="text" placeholder="Nº Teléfono">
+                </div>
+                <textarea name="" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
+                <button>Enviar</button>
+            </div>
+        </div>
+    </section>
+
+    </section>
+    <footer class="footer">
+
+
+        <div class="footer-content container">
+
+            <div class="link">
+                
+            </div>
+            <div class="link">
+                <h3>Integrante</h3>
+                <ul>
+                    <li><a href="#">Jack Chavez</a></li>
+                    <li><a href="#">900770363</a></li>
+                    
+                    
+                </ul>
+            </div>
+            
+            <div class="link">
+                
+                <ul>
+                    <h3>Integrante</h3>
+                    <li><a href="#">Alexander Jayo </a></li>
+                    <li><a href="#">907664838</a></li>
+                                              
+                </ul>
+
+            </div>
+
+            <div class="link">
+                <h3>Integrante</h3>
+                    <li><a href="#">Oscar Hinostroza </a></li>
+                    <li><a href="#">954393873</a></li>
+                    
+                    
+                </ul>
+            </div>
+
+            <div class="link">
+                <h3>Integrante</h3>
+                <ul>
+                    <li><a href="#">Alexander Pecho</a></li>
+                    <li><a href="#">940999104</a></li>
+                    
+                    
+                </ul>
+            </div>
+
+            <div class="link">
+                <h3>Integrante</h3>
+                <ul>
+                    <li><a href="#">Fracklin Flores </a></li>
+                    <li><a href="#">923240534</a></li>
+                    
+                    
+                </ul>
+            </div>
+            <div class="link">
+                <h3>Integrante</h3>
+                <ul>
+                    <li><a href="#">Javier Vilchez </a></li>
+                    <li><a href="#">940999104</a></li>
+                    
+                </ul>
+            </div>
+            <div class="link">
+                <h3>Integrante</h3>
+                <ul>
+                    <li><a href="#">Angel Raymundo </a></li>
+                    <li><a href="#">940999104</a></li>
+                    
+                    
+                </ul>
+            </div>
+            
+        </div>
+
+    </footer>
+    <script>
+        function toggleAnswer(id) {
+            const answer = document.getElementById(id);
+            const question = answer.previousElementSibling;
+            if (answer.style.display === "none" || answer.style.display === "") {
+                answer.style.display = "block";
+                question.classList.add("active");
+            } else {
+                answer.style.display = "none";
+                question.classList.remove("active");
+            }
+        }
+    </script>   
+</body>
+</html>
